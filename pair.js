@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*𝐐𝐔𝐄𝐄𝐍 𝐂𝐇𝐎𝐎𝐓𝐘 𝐍𝐄𝐋𝐔𝐌𝐈 𝐌𝐃💛*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*Owner Number 94757286833*\n\n*You can follow my whatsapp channel\n\n*https://whatsapp.com/channel/0029Vau68wX0gcfCeboi6f2s*`;
+            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://i.ibb.co/7bj7xnn/fda6ebc3a516edd2.jpg",
+                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
               },
               caption: sid,
             });
@@ -94,7 +94,7 @@ router.get("/", async (req, res) => {
             });
             const msg1 = await RobinPairWeb.sendMessage(user_jid, { text: mg });
           } catch (e) {
-            exec("pm2 restart QUEEN-CHOOTY-NELUMI-MD");
+            exec("pm2 restart prabath");
           }
 
           await delay(100);
